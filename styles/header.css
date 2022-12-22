@@ -1,0 +1,54 @@
+/*Este bloco daz o fundo cinza da header e faz os espaçamentos da borda do navegador*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #eceeef;
+    border-bottom: 2px solid #a5bac5;
+    padding-top: 24px;
+    padding-bottom: 24px; 
+}
+
+.header-logo {
+    display: block;;
+    width: 200px;     
+}
+
+/*Este bloco formata a Logo do Site no padrão de tamanho abaixo*/
+.header img {
+    width: 200px;
+}
+
+/*Este bloco deixa a lista na horizontal ou seja, todos na mesma linha*/
+header ul li {
+display: inline;;
+}
+
+/*aqui retira a formatação padrão do navegador e poe sem adornos e cor preta*/
+.header-navigation-item {
+    text-decoration: none;
+    color: #2a0f14;
+}
+
+.header-navigation-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*AQUI ESTRUTURA PARA RESPONSIVO DA BARRA HEADER*/
+@media screen and (max-width: 768px){
+.header {
+    flex-direction: column;   
+}
+.header-logo {
+    margin-bottom: 10px;
+}
+.header-navigation-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    j
+}
