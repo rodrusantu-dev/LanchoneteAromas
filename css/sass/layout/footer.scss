@@ -8,21 +8,7 @@
  
 }
 
-.footer-navigation-title {
-    margin-bottom:  8px;
-}
 
-.footer-navigation-list {
-    margin-left: 16px;
-    line-height:  28px;
-    list-style: square;
-}
-
-.footer-content-legal-text {
-    display: block;
-    margin-top:  16px;
-    font-size: 12px;
-}
 @media screen and (max-width: 768px) {
     .footer {
         grid-template-columns: 1fr;
