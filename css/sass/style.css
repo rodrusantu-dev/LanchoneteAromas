@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url(../images/fundo.png);
+  background-image: url('../images/fundo.png');
   background-size: contain;
   background-position: center;
   padding: 32px 24px;
